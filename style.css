@@ -661,7 +661,9 @@ a {
 .hero-bloc-text {
     font-size: 38px;
 }
-
+.hero-block-sous-text{
+    font-size:23px;
+}
 .hero-bloc-text-sub {
     font-size: 36px;
 }
@@ -678,6 +680,17 @@ a {
 
 p {
     font-size: 11px;
+}
+
+.par {
+    font-size: 20px;
+}
+
+.para {
+    color: #131212; 
+    font-size: 25px;
+    line-height: normal;
+
 }
 
 .tight-width-whitespace {
@@ -818,11 +831,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img_anciennes/agence-la-panthere.jpg");
+    background-image: url("img/arriere-plan_1.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/arriere-plan.webp");
 }
 
 @media (max-width: 1024px) {

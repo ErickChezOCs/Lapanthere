@@ -699,7 +699,7 @@ p {
 }
 .par-opt {
     font-size: 17px;
-    color:#0f0f0f;
+    color:black !important;;
 }
 .par-opti {
     font-size: 15px;

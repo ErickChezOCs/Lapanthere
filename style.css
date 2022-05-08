@@ -660,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -669,6 +669,9 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+}
+.hero-bloc-text-opt {
+    font-size: 15px;
 }
 .hero-block-sous-text{
     font-size:23px;
@@ -696,7 +699,7 @@ p {
 }
 .par-opt {
     font-size: 17px;
-    color: black;
+    color:#0f0f0f;
 }
 .par-opti {
     font-size: 15px;
@@ -813,7 +816,9 @@ h4 {
 .tc-white-opt {
     color: #f1f9ae!important;
 }
-
+.tc-white-opt-1 {
+    color: #ffffff;
+}
 .btn-atomic-tangerine {
     background: #350cb0;
     color: #d1d1d1!important;

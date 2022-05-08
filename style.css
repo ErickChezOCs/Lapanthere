@@ -3,18 +3,22 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+     /*-webkittt-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
 }
 
 a,
 button {
+    min-width: 48px;
+    min-height: 48px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
     transition: all .3s ease-in-out;
     outline: none!important;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration:none ;
     cursor: pointer;
 }
 
@@ -32,9 +36,9 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
+   /*-webkittt-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     position: relative;
 }
@@ -66,9 +70,9 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
+   /*-webkitt-background-size: auto!important;
     -moz-background-size: auto!important;
-    -o-background-size: auto!important;
+    -o-background-size: auto!important;*/
     background-size: auto!important;
 }
 
@@ -91,7 +95,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img_anciennes/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -332,6 +336,10 @@ a:hover {
     text-align: inherit;
 }
 
+
+.nav > li a {
+    text-align: center;
+}
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -368,7 +376,7 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+         /*-webkitt-transform: translateY(-50%);*/
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -551,12 +559,12 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+     /*-webkitt-transform: translateY(-50%);*/
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
+     /*-webkitt-animation-fill-mode: none;*/
     animation-fill-mode: none;
 }
 
@@ -780,7 +788,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #2663f1;
 }
 
 .bgc-atomic-tangerine {
@@ -788,16 +796,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #963000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #350cb0;
+    color: #d1d1d1!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #5724f0!important;
     color: #FFFFFF!important;
 }
 
@@ -823,15 +831,15 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/arriere-plan_1.webp");
+    background-image: url("img/arriere-plan_opt_1.webp");
 }
 
 .bg-presentation {
@@ -867,7 +875,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkitt-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -933,8 +941,8 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+         /*-webkitt-transform: none;
+        -ms-transform: none;*/
     }
     .nav > li {
         margin-top: 0;
@@ -971,7 +979,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
+         /*-webkitt-box-shadow: none;*/
         box-shadow: none;
     }
     .navbar-brand img {

@@ -40,6 +40,7 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover; */
     background-size: cover;
+    background-color: #4a4a4a;
     position: relative;
 }
 
@@ -95,7 +96,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img_anciennes/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 

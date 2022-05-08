@@ -693,7 +693,14 @@ p {
 .par {
     font-size: 20px;
 }
-
+.par-opt {
+    font-size: 17px;
+    color: black;
+}
+.par-opti {
+    font-size: 15px;
+    color: black;
+}
 .para {
     color: #131212; 
     font-size: 25px;
@@ -815,7 +822,15 @@ h4 {
     background: #5724f0!important;
     color: #FFFFFF!important;
 }
+.btn-atomic-tangerine-opt {
+    background: #f1f9ae;
+    color: #000000!important;
+}
 
+.btn-atomic-tangerine-opt:hover {
+    background: #000000!important;
+    color: #f1f9ae!important;
+}
 .ltc-white {
     color: #FFFFFF!important;
 }

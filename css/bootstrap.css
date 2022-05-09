@@ -8,8 +8,7 @@
 
 html {
     font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+  
 }
 
 body {
@@ -3026,7 +3025,7 @@ table th[class*=col-] {
         width: 100%;
         margin-bottom: 15px;
         overflow-y: hidden;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
+       
         border: 1px solid #ddd
     }
     .table-responsive>.table {
@@ -7834,9 +7833,7 @@ button.close {
     position: fixed
 }
 
-@-ms-viewport {
-    width: device-width
-}
+
 
 .visible-lg,
 .visible-md,
